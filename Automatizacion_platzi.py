@@ -203,7 +203,7 @@ def descargar_todos_los_videos(videos):
 
         if j in lista_paginas_evaluacion:
             pyto.click(690, 560)
-            sleep(7)
+            sleep(8)
         
         valor_lista = videos
 
@@ -278,7 +278,7 @@ def descargar_todos_los_videos(videos):
         # Se guarda el video
         
         if j == video_inicial:
-            pyto.alert(text='Si este es el primer video guárdalo, presiona el boton de "Terminé" cuando lo hayas guardado en la carpeta que tenías destinada para este curso. Tómate tu tiempo', title="Ubicación descargas", button="Terminé")
+            pyto.alert(text='Si este es el primer video guárdalo, presiona el boton de "Terminé" cuando lo hayas guardado en la carpeta que tenías destinada para este curso. Tómate tu tiempo', title="Ubicación de descargas", button="Terminé")
         else:
             pyto.click(745, 535)
             sleep(2)
