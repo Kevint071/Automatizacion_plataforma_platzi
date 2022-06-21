@@ -1,5 +1,5 @@
-from tkinter import *
 import tkinter.font as tf
+from tkinter import *
 
 lista_paginas_texto = []
 numero_videos = []
